@@ -14,3 +14,5 @@ function removeActiveClass() {
     panel.classList.remove("active");
   });
 }
+
+console.log("Hello");

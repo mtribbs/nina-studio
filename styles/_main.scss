@@ -11,7 +11,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #f8e6f7;
+  background-color: #e2e8fd;
 }
 
 .card__content {
@@ -34,4 +34,8 @@
 .card__img {
   width: 40vw;
   padding: 2rem;
+}
+
+.email-icon {
+  width: 30px;
 }

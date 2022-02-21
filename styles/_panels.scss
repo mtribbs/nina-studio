@@ -52,7 +52,7 @@
 .panel.active p,
 .panel.active img {
   opacity: 1;
-  transition: opacity 0.3s ease-in 0.2s;
+  transition: opacity 0.3s ease-in 0.5s;
 }
 
 @media (max-width: 480px) {
