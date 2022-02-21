@@ -17,22 +17,36 @@ function removeActiveClass() {
 
 console.log("Hello");
 
-// map
+// dropdown
+const menuBtn = document.getElementById("menubtn");
+const dropDown = document.getElementById("dropdown");
+const dropDownList = document.getElementById("dropdown-list");
 
-// const localMap = document.querySelector("map");
+dropDownList.style.display = "none";
 
-// // Initialize and add the map
-// function initMap() {
-//   // The location of Uluru
-//   const studioLocation = { lat: -25.344, lng: 131.036 };
-//   // The map, centered at Uluru
-//   const map = new google.maps.Map(document.getElementById("map"), {
-//     zoom: 4,
-//     center: studioLocation,
-//   });
-//   // The marker, positioned at Uluru
-//   const marker = new google.maps.Marker({
-//     position: studioLocation,
-//     map: map,
-//   });
-// }
+function menuClosed() {
+  dropDownList.style.display = "none";
+}
+
+function menuOpen() {
+  dropDownList.style.display = "flex";
+}
+
+function openMenu() {
+  if (dropDownList.style.display === "none") {
+    return menuOpen();
+  } else {
+    return menuClosed();
+  }
+}
+
+menuBtn.addEventListener("click", openMenu);
+
+document.addEventListener("click", function (menuClick) {
+  const clickOnMenuBtn = menuBtn.contains(menuClick.target);
+  const clickInsideMenu = dropDownList.contains(menuClick.target);
+
+  if (!clickOnMenuBtn && !clickInsideMenu) {
+    return menuClosed();
+  }
+});

@@ -18,19 +18,35 @@
     <title>Ninas studio</title>
   </head>
   <body>
-    <nav class="navbar">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#info">Studio</a></li>
-        <li class="nav__item"><a href="#panels"> Tjänster</a></li>
-        <li class="nav__item"><a href="#contact">Kontakt</a></li>
-        <li class="nav__item"><a href="#map">Hitta hit</a></li>
-        <li class="nav__item"><a href="#about">Om mig</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav class="navbar" id="navbar">
+        <div>
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#info">Studio</a></li>
+            <li class="nav__item"><a href="#panels"> Tjänster</a></li>
+            <li class="nav__item"><a href="#contact">Kontakt</a></li>
+            <li class="nav__item"><a href="#map">Hitta hit</a></li>
+            <li class="nav__item"><a href="#about">Om mig</a></li>
+          </ul>
+        </div>
+        <div class="dropdown" id="dropdown">
+          <button class="menu__btn">
+            <i class="fas fa-bars" id="menubtn"></i>
+          </button>
+          <ul class="dropdown__list" id="dropdown-list">
+            <li>Studio</li>
+            <li>Tjänster</li>
+            <li>Kontakt</li>
+            <li>Hitta hit</li>
+            <li>Om mig</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main>
       <!--intropage-->
       <div class="intropage">
-        <img src="/images/Nina-logga.png" alt="" />
+        <!-- <img src="/images/Nina-logga.png" alt="" /> -->
       </div>
       <!--card info-->
       <div class="card card--info" id="info">

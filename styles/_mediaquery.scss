@@ -25,4 +25,10 @@
     max-width: 80vw;
     width: 100%;
   }
+  .nav__list {
+    display: none;
+  }
+  .dropdown {
+    display: flex;
+  }
 }
