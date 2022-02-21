@@ -1,0 +1,70 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #1e30be;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.card--info,
+.card--about {
+  background-color: #e2e8fd;
+}
+
+.card--contact {
+  background-color: #f8e6f7;
+}
+
+.card__content {
+  margin-left: 3rem;
+}
+
+.card__title {
+  font-family: "Spectral", serif;
+  font-size: 42px;
+}
+
+.title--info {
+  color: #ee2c30;
+}
+
+.title--contact {
+  color: #1e30be;
+}
+
+.card__txt {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  width: 30vw;
+}
+
+.card__img {
+  width: 40vw;
+  padding: 2rem;
+}
+
+.email-icon {
+  width: 30px;
+}
+
+.img--contact {
+  height: 60vh;
+  width: auto;
+}
+
+.contact-info {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+.title--map {
+  color: #ee2c30;
+}
+
+.map {
+  width: 50vw;
+  height: 50vh;
+  position: relative;
+}

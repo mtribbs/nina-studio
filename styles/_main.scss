@@ -6,36 +6,17 @@
   justify-content: center;
 }
 
-.card--info {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #e2e8fd;
-}
-
-.card__content {
-  margin-left: 3rem;
-}
-
-.card__title {
-  font-family: "Spectral", serif;
-  font-size: 42px;
-  color: #ee2c30;
-}
-
-.card__txt {
-  color: #3e3e3d;
+.btn--about {
+  background-color: #1e30be;
   font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  width: 30vw;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  padding: 1rem;
 }
 
-.card__img {
-  width: 40vw;
-  padding: 2rem;
-}
-
-.email-icon {
-  width: 30px;
+.btn--about:hover {
+  background-color: #e89eae;
+  cursor: pointer;
 }
