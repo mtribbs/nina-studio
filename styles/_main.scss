@@ -1,1 +1,37 @@
+.intropage {
+  background-image: url("/images/macarons-strossel.jpg");
+  background-color: rgba(30, 48, 190, 0.5);
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+}
 
+.card--info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8e6f7;
+}
+
+.card__content {
+  margin-left: 3rem;
+}
+
+.card__title {
+  font-family: "Spectral", serif;
+  font-size: 42px;
+  color: #ee2c30;
+}
+
+.card__txt {
+  color: #3e3e3d;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  width: 30vw;
+}
+
+.card__img {
+  width: 40vw;
+  padding: 2rem;
+}
