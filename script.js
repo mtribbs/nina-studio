@@ -19,7 +19,6 @@ console.log("Hello");
 
 // dropdown
 const menuBtn = document.getElementById("menubtn");
-const dropDown = document.getElementById("dropdown");
 const dropDownList = document.getElementById("dropdown-list");
 
 dropDownList.style.display = "none";

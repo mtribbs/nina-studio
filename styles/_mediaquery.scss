@@ -2,7 +2,44 @@
   width: 100%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
+  .navbar {
+    max-height: 7vh;
+  }
+  .menu-logo {
+    height: 20px;
+  }
+  .nav__list {
+    font-size: 24px;
+  }
+  .nav__item {
+    padding-right: 0.5rem;
+  }
+  .card__img {
+    max-width: 30vw;
+    height: auto;
+  }
+  .panel {
+    max-height: 70vh;
+    margin: 5px;
+  }
+  .map {
+    height: 30vh;
+  }
+  // .card--info {
+  //   flex-direction: column;
+  //   width: 100vw;
+  // }
+  // .content--info {
+  //   margin-right: 3rem;
+  // }
+  // .content--txt {
+  //   width: fit-content;
+  // }
+  // .img--info {
+  //   max-width: 70vw;
+  //   width: 100%;
+  // }
 }
 
 @media (max-width: 480px) {
@@ -33,5 +70,11 @@
   }
   .dropdown {
     display: flex;
+  }
+  .intro--logo {
+    max-width: 90vw;
+  }
+  .menu__btn {
+    display: block;
   }
 }
