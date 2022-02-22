@@ -18,35 +18,32 @@
     <title>Ninas studio</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar" id="navbar">
-        <div>
-          <ul class="nav__list">
-            <li class="nav__item"><a href="#info">Studio</a></li>
-            <li class="nav__item"><a href="#panels"> Tjänster</a></li>
-            <li class="nav__item"><a href="#contact">Kontakt</a></li>
-            <li class="nav__item"><a href="#map">Hitta hit</a></li>
-            <li class="nav__item"><a href="#about">Om mig</a></li>
-          </ul>
-        </div>
-        <div class="dropdown" id="dropdown">
-          <button class="menu__btn">
-            <i class="fas fa-bars" id="menubtn"></i>
-          </button>
-          <ul class="dropdown__list" id="dropdown-list">
-            <li>Studio</li>
-            <li>Tjänster</li>
-            <li>Kontakt</li>
-            <li>Hitta hit</li>
-            <li>Om mig</li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <nav class="navbar" id="navbar">
+      <img class="menu-logo" src="/images/menu-logo.png" alt="" />
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#info">Studio</a></li>
+        <li class="nav__item"><a href="#panels"> Tjänster</a></li>
+        <li class="nav__item"><a href="#contact">Kontakt</a></li>
+        <li class="nav__item"><a href="#map">Hitta hit</a></li>
+        <li class="nav__item"><a href="#about">Om mig</a></li>
+      </ul>
+      <div class="dropdown" id="dropdown">
+        <button class="menu__btn">
+          <i class="fas fa-bars" id="menubtn"></i>
+        </button>
+        <ul class="dropdown__list" id="dropdown-list">
+          <li>Studio</li>
+          <li>Tjänster</li>
+          <li>Kontakt</li>
+          <li>Hitta hit</li>
+          <li>Om mig</li>
+        </ul>
+      </div>
+    </nav>
     <main>
       <!--intropage-->
       <div class="intropage">
-        <!-- <img src="/images/Nina-logga.png" alt="" /> -->
+        <img src="/images/Nina-logga.png" alt="" />
       </div>
       <!--card info-->
       <div class="card card--info" id="info">
@@ -71,7 +68,7 @@
           style="background-image: url('/images/img-two.jpg')"
         ></div>
         <div class="panel" style="background-color: #1e30be">
-          <img src="/images/icon-photo.png" alt="" />
+          <img class="panel__icon" src="/images/icon-photo.png" alt="" />
           <div class="panel__txt">
             <h3>Studio</h3>
             <p>
@@ -87,7 +84,7 @@
           style="background-image: url('/images/img-three.jpg')"
         ></div>
         <div class="panel" style="background-color: #e89eae">
-          <img src="/images/icon-camera.png" alt="" />
+          <img class="panel__icon" src="/images/icon-camera.png" alt="" />
           <div class="panel__txt">
             <h3>Studio</h3>
             <p>
@@ -120,7 +117,10 @@
       </div>
       <!--map-->
       <div class="card card--map" id="map">
-        <h2 class="card__title title--map">Hitta hit</h2>
+        <div>
+          <h2 class="card__title title--map">Hitta hit</h2>
+          <p>Studion ligger på Kolumbusgatan 3, 414 65 Göteborg.</p>
+        </div>
         <div>
           <iframe
             class="map"
